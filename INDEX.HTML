@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopitfy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div id="nav-part1">
+    <h2>Shopitfy</h2>
+  </div>
+  <div id="nav-part2">
+    <div id="links">
+      <a href="#">Shop</a>
+      <a href="#">Catering</a>
+      <a href="#">Donate</a>
+    </div>
+    <div id="icons">
+      <i class="ri-menu-fill"></i>
+      <i class="ri-shopping-cart-2-line"></i>
+    </div>
+  </div>
+</nav>
+
+<div id="cursor"></div>
+
+<main class="main" data-scroll-container>
+  <section id="page1" data-scroll-section>
+    <h1>Change <br> the Course</h1>
+    <div id="video-container">
+      <div id="play">Play</div>
+      <video autoplay muted loop src="./video.mp4"></video>
+    </div>
+  </section>
+
+  <section id="page2" data-scroll-section>
+    <div class="elem"><img src="https://images.unsplash.com/photo-1520975916090-3105956dac38"></div>
+    <div class="elem"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"></div>
+    <div class="elem"><img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d"></div>
+  </section>
+
+  <section id="page3" data-scroll-section>
+    <div class="child"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"></div>
+    <div class="child"><img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa"></div>
+    <div class="child"><img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"></div>
+    <div class="child"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e"></div>
+  </section>
+
+  <section id="products" data-scroll-section>
+    <h2 class="section-title">Featured Products</h2>
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f">
+        <h3>Eco Hoodie</h3>
+        <div class="price-cart">
+          <span class="price">₹2,499</span>
+          <button class="add-cart"><i class="ri-shopping-cart-2-line"></i></button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d">
+        <h3>Organic Shoes</h3>
+        <div class="price-cart">
+          <span class="price">₹3,999</span>
+          <button class="add-cart"><i class="ri-shopping-cart-2-line"></i></button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa">
+        <h3>Daily Backpack</h3>
+        <div class="price-cart">
+          <span class="price">₹1,799</span>
+          <button class="add-cart"><i class="ri-shopping-cart-2-line"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="slider" data-scroll-section>
+    <div class="slide-track">
+      <h1> • Shopitfy • Innovation • Sustainability • Creativity </h1>
+    </div>
+  </section>
+
+  <footer id="footer" data-scroll-section>
+    <div class="footer-top">
+      <h1>Changing the Course Through Conscious Commerce.</h1>
+      <p>Purpose-driven digital experiences that make a real difference.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Explore</h4>
+        <a href="#">Shop</a>
+        <a href="#">Catering</a>
+        <a href="#">Donate</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Impact</a>
+        <a href="#">Careers</a>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://github.com/rishabthakur-722" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/aditya-kumar-thakur-ba6ba9303/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Shopitfy. Good Design. Greater Impact.
+    </div>
+  </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
